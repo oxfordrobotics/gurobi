@@ -24,7 +24,7 @@ BUILD_TYPE="Release"
 endif
 
 DL_PATH = https://github.com/RobotLocomotion/gurobi-tarballs/archive
-UNZIP_DIR = gurobi604
+UNZIP_DIR = gurobi605
 
 all: pod-build/Makefile $(HOME)/gurobi.lic
 	$(MAKE) -C pod-build all install
