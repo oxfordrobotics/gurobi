@@ -53,7 +53,7 @@ if ( $ENV{'GUROBI_DISTRO'} ) {
   $form = shift(@forms);  # download form
 
   if ($^O eq 'darwin') {
-      $filename = 'gurobi6.0.5_mac64.pkg';
+      $filename = 'gurobi6.0.5a_mac64.pkg';
       $postfix = '/Mac OS';
   } elsif ($^O eq 'linux') {
       $filename = 'gurobi6.0.5_linux64.tar.gz';
