@@ -6,7 +6,7 @@ case $1 in
   ("macports")
     port install curl ;;
   ("ubuntu")
-    apt-get install curl libwww-perl libterm-readkey-perl ;;
+    apt-get install curl perl-tk libwww-perl libterm-readkey-perl ;;
   ("cygwin")
     ;;
   (*)
