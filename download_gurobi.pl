@@ -4,9 +4,50 @@ use LWP::UserAgent;
 use HTML::Form;
 use Term::ReadKey;
 use Config;
+my $have_tk = eval "require Tk::LabEntry;\n require Tk::DialogBox;";
 
 local $| = 1;  # autoflush stdout
 my $filename;
+
+sub get_info_graphical{
+  my $mw = MainWindow->new();
+  $mw->withdraw();
+
+  my $db = $mw->DialogBox(-title => 'Enter username/password for gorubi.com', -buttons => ['Ok', 'Cancel'], 
+                       -default_button => 'Ok');
+  $db->Label(-text => "Enter gorubi credentials")->pack( );
+  $db->add('LabEntry', -textvariable => \$email, -width => 30, 
+           -label => 'Email', -labelPack => [-side => 'left'])->pack;
+  $db->add('LabEntry', -textvariable => \$password, -width => 26, 
+            -label => 'Password', -show => '*', 
+            -labelPack => [-side => 'left'])->pack;
+  $answer = $db->Show( );
+
+  if ($answer ne "Ok") {
+    exit (1);
+  }
+  return ($email, $password)
+}
+
+sub get_info_cli{
+  print "Enter your user email for gurobi.com: ";
+  chomp(my $email = <>);
+  print "Enter your password for gurobi.com: ";
+  ReadMode('noecho');
+  chomp(my $password = <>);
+  ReadMode('restore');
+  return ($email, $password)
+}
+
+sub get_email_and_password{
+  if ($have_tk){
+    return get_info_graphical();
+  }
+  else{
+    return get_info_cli();
+  }
+}
+
 
 if ( $ENV{'GUROBI_DISTRO'} ) {
   $filename = $ENV{'GUROBI_DISTRO'};
@@ -18,12 +59,7 @@ if ( $ENV{'GUROBI_DISTRO'} ) {
   $mech->cookie_jar( {} );
 
   while(1) {
-    print "Enter your user email for gurobi.com: ";
-    chomp(my $email = <>);
-    print "Enter your password for gurobi.com: ";
-    ReadMode('noecho');
-    chomp(my $password = <>);
-    ReadMode('restore');
+    my ($email, $password) = get_email_and_password();
 
     $response = $mech->get( "http://www.gurobi.com/login" );
     @forms = HTML::Form->parse( $response );
