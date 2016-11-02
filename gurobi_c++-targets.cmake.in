@@ -1,0 +1,15 @@
+@PACKAGE_INIT@
+
+if(NOT TARGET gurobi)
+  message(FATAL_ERROR
+    "Could NOT find the target gurobi referenced by target gurobi_c++"
+  )
+endif()
+
+if(NOT TARGET gurobi_c++)
+  add_library(gurobi_c++ STATIC IMPORTED)
+  set_target_properties(gurobi_c++ PROPERTIES
+    INTERFACE_LINK_LIBRARIES gurobi
+    IMPORTED_LOCATION "@PACKAGE_GUROBI_LIBRARY_DIR@/lib@GUROBI_CPP_LIBRARY@.a"
+    INTERFACE_INCLUDE_DIRECTORIES "@PACKAGE_GUROBI_INCLUDE_DIR@")
+endif()

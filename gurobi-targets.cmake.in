@@ -1,0 +1,15 @@
+@PACKAGE_INIT@
+
+if(NOT TARGET Threads::Threads)
+  message(FATAL_ERROR
+    "Could NOT find the target Threads::Threads referenced by target gurobi"
+  )
+endif()
+
+if(NOT TARGET gurobi)
+  add_library(gurobi SHARED IMPORTED)
+  set_target_properties(gurobi PROPERTIES
+    INTERFACE_LINK_LIBRARIES "@LIBM_LIBRARY@;Threads::Threads"
+    IMPORTED_LOCATION "@PACKAGE_GUROBI_LIBRARY_DIR@/lib@GUROBI_LIBRARY@.so"
+    INTERFACE_INCLUDE_DIRECTORIES "@PACKAGE_GUROBI_INCLUDE_DIR@")
+endif()

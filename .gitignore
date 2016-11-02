@@ -1,7 +1,3 @@
-build
-pod-build
-gurobi562
-gurobi5.6.2_*
-gurobi6.0.*
-gurobi60*
+*.pkg
 *.tar.gz
+build/
