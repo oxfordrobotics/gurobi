@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+if(NOT TARGET gurobi_java)
+  add_custom_target(gurobi_java)
+  set_target_properties(gurobi_java PROPERTIES
+    JAR_FILE "@PACKAGE_GUROBI_JAR_DIR@/gurobi.jar")
+endif()
