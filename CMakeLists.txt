@@ -72,41 +72,7 @@ set(GUROBI_DISTRO "$ENV{GUROBI_DISTRO}" CACHE INTERNAL
 )
 
 if(NOT GUROBI_DISTRO OR NOT EXISTS "${GUROBI_DISTRO}" OR IS_DIRECTORY "${GUROBI_DISTRO}")
-  find_package(Perl MODULE REQUIRED)
-
-  if(Perl_FOUND)
-    execute_process(
-      COMMAND
-        "${PERL_EXECUTABLE}" "${CMAKE_CURRENT_LIST_DIR}/download_gurobi.pl"
-      RESULT_VARIABLE GUROBI_RESULT_VARIABLE
-    )
-
-    if(NOT GUROBI_RESULT_VARIABLE EQUAL 0)
-      message(FATAL_ERROR
-        "Interactive download of the Gurobi archive failed, please manually download the Gurobi archive and set \$GUROBI_DISTRO to its location"
-      )
-    endif()
-
-    if(GUROBI_PLATFORM STREQUAL mac64)
-      set(GUROBI_DISTRO
-        "${CMAKE_CURRENT_SOURCE_DIR}/gurobi${PROJECT_VERSION}a_${GUROBI_PLATFORM}.pkg"
-        CACHE INTERNAL "Path to the Gurobi archive"
-      )
-    else()
-      set(GUROBI_DISTRO
-        "${CMAKE_CURRENT_SOURCE_DIR}/gurobi${PROJECT_VERSION}_${GUROBI_PLATFORM}.tar.gz"
-        CACHE INTERNAL "Path to the Gurobi archive"
-      )
-    endif()
-  else()
-    message(FATAL_ERROR
-      "Interactive download of the Gurobi archive requires Perl, please install Perl or manually download the Gurobi archive and set \$GUROBI_DISTRO to its location"
-    )
-  endif()
-endif()
-
-if(NOT EXISTS "${GUROBI_DISTRO}")
-  message(FATAL_ERROR "The Gurobi archive was NOT found")
+  message(FATAL_ERROR "Please download the Gurobi ${PROJECT_VERSION} archive (.tar.gz) and set \$GUROBI_DISTRO to its location. See https://git.io/vXVsE.")
 endif()
 
 file(SHA256 "${GUROBI_DISTRO}" GUROBI_ACTUAL_SHA256)
