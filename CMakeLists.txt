@@ -232,6 +232,8 @@ install(FILES
 find_package(PkgConfig MODULE QUIET)
 
 if(PkgConfig_FOUND)
+  find_package(Threads MODULE REQUIRED)
+
   configure_file(gurobi.pc.in gurobi.pc @ONLY)
 
   install(FILES

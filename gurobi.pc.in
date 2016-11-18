@@ -11,5 +11,5 @@ Name: gurobi
 Description: Gurobi Optimizer C Library
 URL: http://www.gurobi.com/
 Version: @PROJECT_VERSION@
-Libs: -L${libdir} -l@GUROBI_LIBRARY@ -lm @CMAKE_THREAD_LIBS_INIT@ @GUROBI_C++_LINK_FLAG@
+Libs: -L${libdir} -l@GUROBI_LIBRARY@ -lm @CMAKE_THREAD_LIBS_INIT@
 Cflags: -I${includedir}

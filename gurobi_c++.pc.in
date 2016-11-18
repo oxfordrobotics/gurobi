@@ -12,5 +12,5 @@ Description: Gurobi Optimizer C++ Library
 URL: http://www.gurobi.com/
 Version: @PROJECT_VERSION@
 Requires: gurobi
-Libs: -L${libdir} -l@GUROBI_C++_LIBRARY@
+Libs: -L${libdir} -l@GUROBI_CPP_LIBRARY@ @GUROBI_CPP_LINK_FLAG@
 Cflags: -I${includedir}
