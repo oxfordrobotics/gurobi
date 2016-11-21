@@ -5,7 +5,7 @@ Wrapper for Gurobi
 
 macOS / OS X
 
-Download `gurobi6.0.5a_mac64.pkg` from
+Download `gurobi6.0.5_mac64.pkg` from
 <https://www.gurobi.com/downloads/download-center>.
 
 ```
