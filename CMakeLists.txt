@@ -72,7 +72,7 @@ set(GUROBI_DISTRO "$ENV{GUROBI_DISTRO}" CACHE INTERNAL
 )
 
 if(NOT GUROBI_DISTRO OR NOT EXISTS "${GUROBI_DISTRO}" OR IS_DIRECTORY "${GUROBI_DISTRO}")
-  message(FATAL_ERROR "Please download the Gurobi ${PROJECT_VERSION} archive (.tar.gz) and set \$GUROBI_DISTRO to its location. See https://git.io/vXVsE.")
+  message(FATAL_ERROR "Please download the Gurobi ${PROJECT_VERSION} archive and set \$GUROBI_DISTRO to its location. See https://git.io/vXVsE.")
 endif()
 
 file(SHA256 "${GUROBI_DISTRO}" GUROBI_ACTUAL_SHA256)
