@@ -25,11 +25,11 @@ $ make install
 mac64
 -----
 
-Download `gurobi6.0.5a_mac64.pkg` from
+Download `gurobi6.0.5_mac64.pkg` from
 <https://www.gurobi.com/downloads/download-center>.
 
 ```
-$ export GUROBI_DISTRO=/path/to/gurobi6.0.5a_mac64.pkg
+$ export GUROBI_DISTRO=/path/to/gurobi6.0.5_mac64.pkg
 $ mkdir build && cd build
 $ cmake ..
 $ make install
