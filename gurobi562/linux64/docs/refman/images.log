@@ -1,0 +1,339 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.5)  15 JAN 2014 08:33
+entering extended mode
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf/tex/latex/html/html.sty
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count87
+\c@lchapter=\count88
+\c@chapter=\count89
+\c@lsection=\count90
+\c@lsubsection=\count91
+\c@lsubsubsection=\count92
+\c@lparagraph=\count93
+\c@lsubparagraph=\count94
+\c@lsubsubparagraph=\count95
+\ptrfile=\write3
+) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+) (/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+\sizebox=\box26
+\lthtmlwrite=\write4
+No file images.aux.
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 432.
+LaTeX Font Info:    ... okay on input line 432.
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=633.0pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=62.0pt
+
+latex2htmlLength evensidemargin=62.0pt
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 486.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 486.
+l2hSize :tex2html_wrap_inline4659:8.01782pt::8.01782pt::65.83243pt.
+[1
+
+
+
+]
+l2hSize :tex2html_wrap_inline4663:7.33331pt::7.33331pt::8.40558pt.
+[2
+
+
+]
+l2hSize :tex2html_wrap_inline4665:8.64003pt::8.64003pt::37.81708pt.
+[3
+
+
+]
+l2hSize :tex2html_wrap_inline4667:6.45831pt::0.0pt::6.2153pt.
+[4
+
+
+]
+l2hSize :tex2html_wrap_inline4669:6.95831pt::6.95831pt::5.76163pt.
+[5
+
+
+]
+l2hSize :tex2html_wrap_inline4671:8.01782pt::8.01782pt::38.42125pt.
+[6
+
+
+]
+l2hSize :tex2html_wrap_inline4677:6.45831pt::0.0pt::5.59033pt.
+[7
+
+
+]
+l2hSize :tex2html_wrap_inline4679:8.64003pt::8.64003pt::91.22208pt.
+[8
+
+
+]
+l2hSize :tex2html_wrap_inline12235:6.94444pt::0.0pt::31.92699pt.
+[9
+
+
+]
+l2hSize :tex2html_wrap_inline12237:6.83331pt::0.0pt::8.58684pt.
+[10
+
+
+]
+l2hSize :tex2html_wrap_inline12239:6.94444pt::0.0pt::4.79169pt.
+[11
+
+
+]
+l2hSize :tex2html_wrap_inline12243:7.51782pt::0.0pt::34.73254pt.
+[12
+
+
+]
+l2hSize :tex2html_wrap_inline12245:7.51782pt::0.0pt::11.3924pt.
+[13
+
+
+]
+l2hSize :tex2html_wrap_inline12251:7.33331pt::7.33331pt::39.3489pt.
+[14
+
+
+]
+l2hSize :tex2html_wrap_inline12255:7.33331pt::7.33331pt::12.21361pt.
+[15
+
+
+]
+l2hSize :tex2html_wrap_inline12257:6.83331pt::0.0pt::8.00005pt.
+[16
+
+
+]
+l2hSize :tex2html_wrap_inline12259:7.09525pt::7.09525pt::5.19052pt.
+[17
+
+
+]
+l2hSize :tex2html_wrap_inline12263:6.59525pt::0.0pt::3.94516pt.
+[18
+
+
+]
+l2hSize :tex2html_wrap_inline12265:8.14003pt::0.0pt::26.823pt.
+[19
+
+
+]
+l2hSize :tex2html_wrap_inline12267:8.14003pt::0.0pt::19.32298pt.
+[20
+
+
+]
+l2hSize :tex2html_wrap_inline71212:8.01782pt::8.01782pt::83.8233pt.
+[21
+
+
+]
+l2hSize :tex2html_wrap_inline71214:6.94444pt::0.0pt::31.3402pt.
+[22
+
+
+]
+l2hSize :tex2html_wrap_inline71216:7.44444pt::7.44444pt::42.77301pt.
+[23
+
+
+]
+l2hSize :tex2html_wrap_inline71218:6.95831pt::6.95831pt::10.42886pt.
+[24
+
+
+]
+l2hSize :tex2html_wrap_inline71220:6.95831pt::6.95831pt::11.13547pt.
+[25
+
+
+]
+l2hSize :tex2html_wrap_inline71222:8.01782pt::8.01782pt::86.70168pt.
+[26
+
+
+]
+l2hSize :tex2html_wrap_inline71224:6.95831pt::6.95831pt::9.54459pt.
+[27
+
+
+]
+l2hSize :tex2html_wrap_inline71228:7.44444pt::7.44444pt::24.38899pt.
+[28
+
+
+]
+l2hSize :tex2html_wrap_inline71512:8.64003pt::8.64003pt::46.0046pt.
+[29
+
+
+]
+l2hSize :tex2html_wrap_inline73625:8.01782pt::8.01782pt::31.93163pt.
+[30
+
+
+]
+l2hSize :tex2html_wrap_inline73627:8.01782pt::8.01782pt::48.84126pt.
+[31
+
+
+]
+l2hSize :tex2html_wrap_inline73629:8.01782pt::8.01782pt::31.21638pt.
+[32
+
+
+]
+l2hSize :tex2html_wrap_inline73641:8.01782pt::8.01782pt::31.51385pt.
+[33
+
+
+]
+l2hSize :tex2html_wrap_inline73643:8.01782pt::8.01782pt::48.8263pt.
+[34
+
+
+]
+l2hSize :tex2html_wrap_inline73649:8.01782pt::8.01782pt::31.16551pt.
+[35
+
+
+]
+l2hSize :tex2html_wrap_inline73651:6.45831pt::0.0pt::4.82759pt.
+[36
+
+
+]
+l2hSize :tex2html_wrap_inline78689:8.64003pt::8.64003pt::222.22206pt.
+[37
+
+
+]
+l2hSize :tex2html_wrap_inline78691:8.14003pt::0.0pt::34.05565pt.
+[38
+
+
+]
+l2hSize :tex2html_wrap_inline78693:6.83331pt::0.0pt::53.08331pt.
+[39
+
+
+]
+l2hSize :tex2html_wrap_inline78695:8.14003pt::0.0pt::29.05563pt.
+[40
+
+
+]
+l2hSize :tex2html_wrap_inline79065:7.51782pt::0.0pt::18.30562pt.
+[41
+
+
+] (./images.aux) ) 
+Here is how much of TeX's memory you used:
+ 1167 strings out of 493849
+ 14872 string characters out of 1152847
+ 60977 words of memory out of 3000000
+ 4492 multiletter control sequences out of 15000+50000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 25i,5n,19p,185b,147s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on images.dvi (41 pages, 9580 bytes).
